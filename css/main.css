@@ -246,6 +246,20 @@ Primary use:
   color: #fff;
 }
 
+.m2-txt3 {
+  font-family: Lato-Light;
+  font-size: 25px;
+  line-height: 1.2;
+  color: #846add;
+}
+
+.m2-txt4 {
+  font-family: Lato-Bold;
+  font-size: 20px;
+  line-height: 1;
+  color: #846add;
+}
+
 
 /*//////////////////////////////////////////////////////////////////
 [ L-Text >= 26 ]*/
