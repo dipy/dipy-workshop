@@ -207,7 +207,7 @@ Primary use:
   font-family: Lato-Regular;
   font-size: 12px;
   line-height: 1;
-  color: #846add;
+  color: #ff7f00;
   text-transform: uppercase;
 }
 
@@ -215,7 +215,7 @@ Primary use:
   font-family: Lato-Bold;
   font-size: 15px;
   line-height: 1.4;
-  color: #846add;
+  color: #ff7f00;
 }
 
 .s2-txt3 {
@@ -250,14 +250,14 @@ Primary use:
   font-family: Lato-Light;
   font-size: 25px;
   line-height: 1.2;
-  color: #846add;
+  color: #ff7f00;
 }
 
 .m2-txt4 {
   font-family: Lato-Bold;
   font-size: 20px;
   line-height: 1;
-  color: #846add;
+  color: #ff7f00;
 }
 
 
@@ -364,19 +364,19 @@ Primary use:
   height: 100%;
   top: 0;
   left: 0;
-  background-color: rgba(0,0,0,0.8);
+  background-color: rgba(0,0,0,0.6);
 }
 
 /*---------------------------------------------*/
 .how-btn1 {
   border-radius: 35px;
-  background-color: #846add;
+  background-color: #ff7f00;
   padding-right: 20px;
   padding-left: 20px;
 }
 
 .how-btn1:hover {
-  background-color: #5d43b5;
+  background-color: #ff7f00;
 }
 
 
