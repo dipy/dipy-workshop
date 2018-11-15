@@ -2283,6 +2283,13 @@ iframe {border: none;}
 [ TEXT ]*/
 .color-white {color: white;}
 .color-black {color: black;}
+.color-yellow {color: #ffc000;}
+.color-orange {color: #fc7f0c;}
+.color-red {color: #e84b3a;}
+.color-grey {color: #474747;}
+.color-limestone {color: #ACA39A;}
+.color-dipy {color: #fc7f0c;}
+
 
 /*------------------------------------------------------------------
 [ Line height ]*/
@@ -2336,6 +2343,11 @@ iframe {border: none;}
 [ BACKGROUND ]*/
 .bgwhite {background-color: white;}
 .bgblack {background-color: black;}
+.bgyellow {background-color: #ffc000;}
+.bgorange {background-color: #fc7f0c;}
+.bgred {background-color: #e84b3a;}
+.bggrey {background-color: #474747;}
+.bglimestone {background-color: #ACA39A;}
 
 
 
