@@ -326,6 +326,7 @@ div.apply-section * {
   box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.15);
   font-weight: bold;
   height: 80px;
+  font-size: 20px;
 
 }
 /*//////////////////////////////////////////////////////////////////
@@ -564,6 +565,12 @@ div.apply-section * {
   font-size: 25px;
   line-height: 1;
   color: #fff;
+}
+
+.m2-txt2-dark {
+  font-family: Lato-Light;
+  font-size: 25px;
+  line-height: 1;
 }
 
 .m2-txt3 {
