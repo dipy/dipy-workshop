@@ -197,6 +197,21 @@ div.apply-section * {
 		font-weight: 300;
   }
   
+.btn-secondary {
+    background: #fc7f0c;
+    color: #ffffff;
+}
+.btn-outline-secondary {
+	border: 2px solid #ffffff;
+  color: #ffffff;
+  border-radius: 24px;
+}
+
+  .btn-outline-secondary:hover, .btn-secondary:focus, .btn-secondary:active, .btn-secondary.active, .open > .dropdown-toggle.btn-secondary {
+    background: #fc7f0c;
+    border-color: #fc7f0c;
+}
+
 /*/////MAP Page /////////////////////////////////////////////////*/
   #map_wrapper {
     top:10%;
