@@ -26,9 +26,10 @@
 </head>
 <body>
 
-<div id="menu">
+<div id="menu" class="">
     <div class="row" style="max-height: 100%;">
-        <ul class="col-8">
+        <!--<div class="col-1 hamburger"><a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars color-dipy"></i></a></div>-->
+        <ul class="col-10">
             <li data-menuanchor="Home"><a href="#Home">Home</a></li>
             <li data-menuanchor="Speakers"><a href="#Speakers">Speakers</a></li>
             <li data-menuanchor="Workshops"><a href="#Workshops">Workshops</a></li>
@@ -37,7 +38,7 @@
             <li data-menuanchor="Venue"><a href="#Venue">Venue</a></li>
             <li data-menuanchor="Contact"><a href="#Contact">Contact</a></li>
         </ul>
-        <div class="col-4"><img class="" src="images/iu_trident_web_reverse.png"
+        <div class="col-1"><img class="" src="images/iu_trident_web_reverse.png"
                                 style="height: 100%; float: right; "></div>
     </div>
     </div>
@@ -98,28 +99,28 @@
     <div class="section" id="section_2">
         <div class="container p-t-60">
             <div class="row">
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-sm-6">
                     <img class="rounded-circle" src="images/garyfallidis.jpg" alt="Garyfallidis"
                             width="140" height="140">
                     <h3 class="m2-txt4">Eleftherios Garyfallidis</h3>
                     <p>Chair, DIPY Founder & Lead Developer</p>
                     <p>Indiana University</p>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-sm-6">
                     <img class="rounded-circle" src="images/rokem.jpg" alt="rokem"
                             width="140" height="140">
                     <h3 class="m2-txt4">Ariel Rokem</h3>
                     <p>Associate DIPY Lead</p>
                     <p>eScience Institute, University of Washington, Seattle</p>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-sm-6">
                     <img class="rounded-circle" src="images/descoteaux.jpeg"
                             alt="Descoteaux" width="140" height="140">
                     <h3 class="m2-txt4">Maxime Descoteaux</h3>
 		            <p>DIPY Scientific Advisor</p>
                     <p>University of Sherbrooke, QC, CA</p>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-sm-6">
                     <img class="rounded-circle" src="images/jarek.jpeg"
                             alt="jarek" width="140" height="140">
                     <h3 class="m2-txt4">Jaroslaw Harezlak</h3>
@@ -128,25 +129,25 @@
                 </div>
             </div>
             <div class="row with-padding-60">
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-sm-6">
                     <img class="rounded-circle" src="images/girard.png"
                             alt="girard" width="140" height="140">
                     <h3 class="m2-txt4">Gabriel Girard</h3>
                     <p>Swiss Federal Institute of Technology (EPFL), Lausanne, CH</p>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-sm-6">
                     <img class="rounded-circle" src="images/houde.png"
                             alt="houde" width="140" height="140">
                     <h3 class="m2-txt4">Jean Christophe Houde</h3>
                     <p>University of Sherbrooke, QC, CA and Imeka, Sherbrooke, QC, CA</p>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-sm-6">
                     <img class="rounded-circle" src="images/henriques.jpeg"
                             alt="henriques" width="140" height="140">
                     <h3 class="m2-txt4">Raphael Neto Henriques</h3>
                     <p>Champalimaud Neuroscience Programme, Champalimaud Centre for the Unknown, PT </p>
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-3 col-sm-6">
                     <img class="rounded-circle" src="images/keshavan.jpg"
                             alt="keshavan" width="140" height="140">
                     <h3 class="m2-txt4"></h3>
@@ -185,7 +186,7 @@
     </div>
     <div class="section" id="section_4">
         <div class="row with-padding-100">
-            <div class="col-xs-12 col-sm-12 col-md-12">
+            <div class="col-xs-12 col-md-10 offset-md-1 col-xl-8 offset-xl-2">
                     <!--<iframe style="width: 90%;height: -webkit-fill-available;" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTsldZPeB8PdsirE_I6iwORjn2VsdcX7ktVj5RkRiXs8Nq6pHp5PGMQrGRp3zcVl7Xh7Ho1n4BBN2b_/pubhtml?widget=true&amp;headers=false" frameBorder="0"></iframe>-->
                     <iframe style="width: 90%;height: -webkit-fill-available;" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTsldZPeB8PdsirE_I6iwORjn2VsdcX7ktVj5RkRiXs8Nq6pHp5PGMQrGRp3zcVl7Xh7Ho1n4BBN2b_/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
             </div>
@@ -543,6 +544,14 @@
             });
             $('#menu').hide();
         });
+        function myFunction() {
+                var x = document.getElementById("menu");
+                if (x.className === "") {
+                    x.className += "responsive";
+                } else {
+                    x.className = "";
+                }
+            }
     </script>
     <!--===============================================================================================-->
     <script type="text/javascript" src="js/main.js"></script>
