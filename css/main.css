@@ -39,8 +39,8 @@ ol,ul {
     margin:0;
     padding:0;
 }
-caption,th {
-    text-align: left;
+th {
+    color: #fc7f0c;
 
 }
 h1,h2,h3,h4,h5,h6 {
@@ -155,7 +155,7 @@ a:hover {
 .apply-section.container{
 	margin:15%;
 }
-div.apply-section * {
+div.apply-section h4, td {
 	color: #fff;
 }
 
