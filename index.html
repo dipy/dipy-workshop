@@ -26,19 +26,21 @@
 </head>
 <body>
 
-<div id="menu" class="">
+<div id="menu-wrap" class="">
     <div class="row" style="max-height: 100%;">
-        <div class="col-4 col-md-1 hamburger"><a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars color-dipy"></i></a></div>
-        <ul class="col-4 col-md-10">
-            <li data-menuanchor="Home"><a href="#Home">Home</a></li>
-            <li data-menuanchor="Speakers"><a href="#Speakers">Speakers</a></li>
-            <li data-menuanchor="Workshops"><a href="#Workshops">Workshops</a></li>
-            <li data-menuanchor="Schedule"><a href="#Schedule">Schedule</a></li>
-            <li data-menuanchor="Registration"><a href="#Registration">Registration</a></li>
-            <li data-menuanchor="Venue"><a href="#Venue">Venue</a></li>
-            <li data-menuanchor="Contact"><a href="#Contact">Contact</a></li>
-        </ul>
-        <div class="col-4 col-md-1"><img class="" src="images/iu_trident_web_reverse.png"></div>
+        <div class="col-md-1 hamburger"><a href="javascript:void(0);" class="icon" onclick="openCloseMenu()"><i class="fa fa-bars color-dipy"></i></a></div>
+        <div class="col-md-10" id="menu">
+            <ul>
+                <li data-menuanchor="Home"><a href="#Home">Home</a></li>
+                <li data-menuanchor="Speakers"><a href="#Speakers">Speakers</a></li>
+                <li data-menuanchor="Workshops"><a href="#Workshops">Workshops</a></li>
+                <li data-menuanchor="Schedule"><a href="#Schedule">Schedule</a></li>
+                <li data-menuanchor="Registration"><a href="#Registration">Registration</a></li>
+                <li data-menuanchor="Venue"><a href="#Venue">Venue</a></li>
+                <li data-menuanchor="Contact"><a href="#Contact">Contact</a></li>
+            </ul>
+        </div>
+        <div class="col-md-1"><img class="" src="images/iu_trident_web_reverse.png"></div>
     </div>
     </div>
 <div id="fullpage">
@@ -222,8 +224,7 @@
                             </tr>
                         </tbody>
                         </table>
-                <a href="https://indianauniv.ungerboeck.com/prod/emc00/register.aspx?OrgCode=10&EvtID=8995&AppCode=REG&CC=118121334373" role="button" class="btn btn-lg btn-block btn-outline-secondary">Register
-                </a>
+                <a href="https://indianauniv.ungerboeck.com/prod/emc00/register.aspx?OrgCode=10&EvtID=8995&AppCode=REG&CC=118121334373" role="button" class="btn btn-lg btn-block btn-outline-secondary"><b>Register</b></a>
                 <p class="intro m-t-25 m2-txt1">* Includes registration fees, breakfast, lunch, social events </p>
                 <p class="intro m-t-5 m2-txt1">* We recommend to book your hotel at <a class="color-dipy" target="_blank" rel="noopener noreferrer"
                     href="https://www.imu.indiana.edu/hotel/index.shtml">Indiana Memorial Union (IMU)</a> </p>
@@ -445,14 +446,14 @@
                 continuousVertical: false,
                 anchors: ["Home", "Speakers", "Workshops", "Schedule", "Registration", "Venue", "Contact"],
 
-                menu: '#menu',
+                menu: '#menu-wrap',
 
 				onLeave: function(index, newIndex, direction){
 					if (index == 1 && direction == 'down'){
-						$('#menu').fadeIn(600);
+						$('#menu-wrap').fadeIn(600);
 					}
 					else if(newIndex == 1 && direction == 'up'){
-						$('#menu').hide();
+						$('#menu-wrap').hide();
                     }
                     else if(index == 2 && direction == 'down'){
                         //alert("test");
@@ -468,14 +469,14 @@
 
 				},
             });
-            $('#menu').hide();
+            $('#menu-wrap').hide();
         });
-        function myFunction() {
+        function openCloseMenu() {
                 var x = document.getElementById("menu");
-                if (x.className === "") {
-                    x.className += "responsive";
+                if (x.className.includes("responsive")) {
+                    x.className = "col-md-10"
                 } else {
-                    x.className = "";
+                    x.className = "responsive";
                 }
             }
     </script>
