@@ -868,6 +868,11 @@ div.apply-section h4, td {
     
   }
   #menu-wrap img{ z-index: 3;}
+
+  th {
+    font-size: 15px
+  }
+
   /*---------------------------------------------*/
 
 
@@ -896,6 +901,9 @@ div.apply-section h4, td {
   .w-full-md {width: 100%;}
   /*---------------------------------------------*/
 
+  #section_4 iframe{
+    min-width: 100%;
+  }
 }
 
 
@@ -920,7 +928,11 @@ div.apply-section h4, td {
 
   .w-full-sm {width: 100%;}
   /*---------------------------------------------*/
-
+  #section_4 iframe{
+    min-width: 100%;
+    min-height: 500px;
+  
+  }
   
 }
 
