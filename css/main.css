@@ -64,13 +64,7 @@ body{
 	/*color: #333;*/
 	color: rgba(0,0,0,0.5);
 }
-iframe{
-  min-width: 880px;
-  max-width: 880px;
-  min-height: 900px;
-  max-height: 900px;
 
-}
 a, a:active {
   color: rgba(0,0,0,0.5);
 }
@@ -164,6 +158,14 @@ div.hamburger a {
 
 #fp-nav ul:hover .fp-tooltip {
 	color: #444444;
+}
+
+#section_4 iframe{
+  min-width: 880px;
+  max-width: 880px;
+  min-height: 900px;
+  max-height: 900px;
+
 }
 
 .apply-section  {
