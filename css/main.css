@@ -64,6 +64,13 @@ body{
 	/*color: #333;*/
 	color: rgba(0,0,0,0.5);
 }
+iframe{
+  min-width: 880px;
+  max-width: 880px;
+  min-height: 900px;
+  max-height: 900px;
+
+}
 a, a:active {
   color: rgba(0,0,0,0.5);
 }
