@@ -144,7 +144,13 @@ a:hover {
 	margin:0;
 	direction: rtl;
 }
-
+#menu img{
+  width: auto;
+  height : 50px;
+  float: right;
+  max-height:100%;
+  max-width:100%;
+}
 div.hamburger{
   float: left;
   font-size:200%;
