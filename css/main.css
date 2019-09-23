@@ -1,9 +1,9 @@
 /*------------------------------------------------------------------
 Project:  ComingSoon
-Version:  
-Last change:  
+Version:
+Last change:
 Assigned to:  Bach Le
-Primary use:  
+Primary use:
 -------------------------------------------------------------------*/
 
 /* Reset CSS
@@ -154,7 +154,7 @@ div.hamburger a {
   display: None;
   z-index: 2;
   position: fixed;
-  
+
 }
 
 #fp-nav ul:hover .fp-tooltip {
@@ -225,7 +225,7 @@ div.apply-section h4, td {
 		font-size: 18px;
 		font-weight: 300;
   }
-  
+
 .btn-secondary {
     background: #fc7f0c;
     color: #ffffff;
@@ -248,12 +248,12 @@ div.apply-section h4, td {
     position: absolute;
     padding: 50px 0;
   }
-  
+
   .map_canvas {
       width: 100%;
       height: 100%;
   }
-  
+
   .gmap_canvas {
     overflow:hidden;
     background:none!important;
@@ -266,7 +266,7 @@ div.apply-section h4, td {
     height: 70%;
     top:15%; */
   }
-  
+
   /*  tab */
   #tab_container {
     background-color: #ffffff;
@@ -283,7 +283,7 @@ div.apply-section h4, td {
     opacity: 0.97;
     filter: alpha(opacity=97);
   }
-  
+
   .nav.nav-tabs {
       float: left;
       display: block;
@@ -298,14 +298,14 @@ div.apply-section h4, td {
       border-top-right-radius: .25rem;
       background: #ccc;
   }
-  
+
   .nav-tabs .nav-link.active,
   .nav-tabs .nav-link.active .fa {
       color: #ffffff;
       background-color:#fc7f0c !important;
       border-color: transparent !important;
   }
-  
+
   /*.nav-tabs .nav-link.active:after{
     content: '';
     position: absolute;
@@ -317,7 +317,7 @@ div.apply-section h4, td {
     border-top: 13px solid transparent;
     border-left: 10px solid #fc7f0c;
   }*/
-  
+
   .nav-tabs .nav-link .fa {
     color: #fc7f0c;
   }
@@ -336,7 +336,7 @@ div.apply-section h4, td {
     border-bottom-right-radius: 0;
     -moz-border-radius-bottomright: 0;
   }
-  
+
   .tab-content>.active {
       display: block;
       background: #ffffff;
@@ -350,7 +350,7 @@ div.apply-section h4, td {
       border-right: 1px solid #cccccc;
       padding-right: 0px;
   }
-  
+
   .tab-pane{
     font-size: x-small;
   }
@@ -378,27 +378,27 @@ div.apply-section h4, td {
 
 @font-face {
   font-family: Poppins-Regular;
-  src: url('../fonts/Poppins/Poppins-Regular.ttf'); 
+  src: url('../fonts/Poppins/Poppins-Regular.ttf');
 }
 
 @font-face {
   font-family: Poppins-Bold;
-  src: url('../fonts/Poppins/Poppins-Bold.ttf'); 
+  src: url('../fonts/Poppins/Poppins-Bold.ttf');
 }
 
 @font-face {
   font-family: Lato-Regular;
-  src: url('../fonts/Lato/Lato-Regular.ttf'); 
+  src: url('../fonts/Lato/Lato-Regular.ttf');
 }
 
 @font-face {
   font-family: Lato-Light;
-  src: url('../fonts/Lato/Lato-Light.ttf'); 
+  src: url('../fonts/Lato/Lato-Light.ttf');
 }
 
 @font-face {
   font-family: Lato-Bold;
-  src: url('../fonts/Lato/Lato-Bold.ttf'); 
+  src: url('../fonts/Lato/Lato-Bold.ttf');
 }
 
 
@@ -705,7 +705,7 @@ div.apply-section h4, td {
 
 
 /*==================================================================
-   WHERE WHERE WHERE WHERE WHERE WHERE WHERE WHERE WHERE WHERE WHERE  
+   WHERE WHERE WHERE WHERE WHERE WHERE WHERE WHERE WHERE WHERE WHERE
 ==================================================================*/
 .where1 {
   margin: 0 5px 20px 5px;
@@ -714,7 +714,7 @@ div.apply-section h4, td {
 
 
 /*==================================================================
- HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW 
+ HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW HOW
 ==================================================================*/
 .placeholder0::-webkit-input-placeholder { color: #999999;}
 .placeholder0:-moz-placeholder { color: #999999;}
@@ -865,7 +865,7 @@ div.apply-section h4, td {
     display: inline-block;
     z-index: 3;
     position: fixed;
-    
+
   }
   #menu-wrap img{ z-index: 3;}
 
@@ -931,9 +931,9 @@ div.apply-section h4, td {
   #section_4 iframe{
     min-width: 100%;
     min-height: 500px;
-  
+
   }
-  
+
 }
 
 
