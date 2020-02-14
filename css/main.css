@@ -174,7 +174,7 @@ div.hamburger a {
     /* height: 500px; */
     padding: 50px 0;
     color: #fff;
-    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(../images/luddyFest.png) no-repeat center center scroll;
+    /* background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(../images/luddyFest.png) no-repeat center center scroll; */
     background-color: #444444;
     -webkit-background-size: cover;
     -moz-background-size: cover;
