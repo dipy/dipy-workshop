@@ -240,6 +240,26 @@ div.apply-section h4, td {
     background: #fc7f0c;
     border-color: #fc7f0c;
 }
+/*/////PROMO INFORMATION /////////////////////////////////////////////////*/
+.promo--intro {
+  padding: 2em;
+  color: #fff;
+  border: 5px solid #fc7f0c;
+}
+
+.promo--heading {
+  color: #fff;
+  font-size: 4em;
+}
+
+.promo--intro .promo--heading {
+  line-height: 1.1;
+  font-weight: 900;
+}
+
+.promo--intro .promo--content{
+  font-size: 2em;
+}
 
 /*/////MAP Page /////////////////////////////////////////////////*/
   #map_wrapper {
@@ -591,6 +611,14 @@ div.apply-section h4, td {
   text-transform: uppercase;
 }
 
+.s2-txt2-dark {
+  /* font-family: Lato-Bold; */
+  font-size: 20px;
+  line-height: 1;
+  color: #444444;
+  line-height: inherit;
+}
+
 
 
 /*//////////////////////////////////////////////////////////////////
@@ -612,9 +640,10 @@ div.apply-section h4, td {
 }
 
 .m2-txt2-dark {
-  font-family: Lato-Light;
+  font-family: Lato-Bold;
   font-size: 25px;
   line-height: 1;
+  color: #444444;
 }
 
 .m2-txt3 {
